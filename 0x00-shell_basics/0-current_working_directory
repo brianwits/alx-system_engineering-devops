@@ -1,0 +1,5 @@
+cript.sh
+#!/bin/bash
+
+path=$(realpath 0-current_working_directory.sh)
+echo 'The absolute path is ' $path
